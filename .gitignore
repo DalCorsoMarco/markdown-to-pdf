@@ -1,0 +1,19 @@
+# Claude Code
+.claude/
+.claude/settings.local.json
+CLAUDE.local.md
+.mcp.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Internal dev/testing artifacts -- not part of the public skill
+evals/
+
+# OS
+.DS_Store

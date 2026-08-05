@@ -1,0 +1,10 @@
+{
+  "name": "markdown-to-pdf",
+  "description": "Generate a real, laid-out PDF from Markdown, deterministically -- zero model calls in the generation path, real pagination/styles/tables/hyperlinks instead of a hand-rolled reportlab script.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marco Dal Corso"
+  },
+  "homepage": "https://github.com/DalCorsoMarco/markdown-to-pdf",
+  "license": "Apache-2.0"
+}

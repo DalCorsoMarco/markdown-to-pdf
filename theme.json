@@ -1,0 +1,18 @@
+{
+  "_comment": "Colors used when generating PDFs. Edit freely - every value must be a \"#RRGGBB\" hex string. Delete this file to fall back to the built-in defaults, or pass --theme other-theme.json to use a different file. Keys prefixed with _ are ignored.",
+
+  "accent": "#1F6FEB",
+  "title": "#142B4A",
+  "heading_deep": "#2E3A4A",
+  "body": "#24292F",
+
+  "quote_text": "#3A4A5E",
+  "quote_bg": "#F4F7FB",
+
+  "table_header_bg": "#1F6FEB",
+  "table_header_text": "#FFFFFF",
+  "table_band_bg": "#F4F7FB",
+  "table_grid": "#D0D7DE",
+
+  "code_bg": "#F4F6F8"
+}

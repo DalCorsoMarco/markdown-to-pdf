@@ -1,0 +1,13 @@
+{
+  "name": "markdown-to-pdf-repo",
+  "owner": {
+    "name": "Marco Dal Corso"
+  },
+  "plugins": [
+    {
+      "name": "markdown-to-pdf",
+      "source": "./",
+      "description": "Generate a real, laid-out PDF from Markdown, deterministically -- zero model calls in the generation path, real pagination/styles/tables/hyperlinks instead of a hand-rolled reportlab script."
+    }
+  ]
+}
