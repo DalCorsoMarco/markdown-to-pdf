@@ -51,6 +51,10 @@ python3 scripts/markdown_to_pdf.py <input.md> [output.pdf] [--force]
 ```bash
 python3 scripts/markdown_to_pdf.py <folder> [output_folder] [--recursive] [--force] [--jobs N]
 ```
+By default `--jobs` is the machine's CPU count, converting that many files
+at once in separate worker processes; pass `--jobs N` for a specific count
+or `--jobs 1` to force one-at-a-time. Only has an effect with more than
+one file.
 
 ## What each Markdown construct becomes
 

@@ -654,7 +654,7 @@ def main():
     force = "--force" in raw
     list_cache_mode = "--list-cache" in raw
 
-    jobs = 1
+    jobs = os.cpu_count() or 1  # default: parallelize a folder across all CPUs
     if "--jobs" in raw:
         idx = raw.index("--jobs")
         try:
