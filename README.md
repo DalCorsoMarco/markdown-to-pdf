@@ -142,7 +142,7 @@ python3 scripts/markdown_to_pdf.py --list-cache folder/ [--recursive]
 | Flag | Effect |
 |---|---|
 | `--force` | Regenerate even if the Markdown's CRC32 already matches the existing `.pdf` |
-| `--jobs N` | Folder mode only: generate up to N files at once (default: 1) |
+| `--jobs N` | Folder mode only: generate up to N files at once (default: CPU count; `--jobs 1` forces one-at-a-time) |
 | `--theme PATH` | Use a different theme file instead of this skill's own `theme.json` |
 | `--list-cache` | List already-generated files instead of converting |
 
